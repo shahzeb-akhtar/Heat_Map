@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Heat Map</title>
+		<style>
+		</style>
+		<script src="js/d3-v4.js"></script>
+		<script src="data/data.js"></script>
+		<script src="js/HeatMap.js"></script>	
+	</head>
+	<body>
+		<div id="chart" style="width:95%; height:95%"></div>		
+		<script>
+			HeatMap({'divElement': d3.select('#chart'), 
+						'dataArr':data, 
+						'title':"Co-Relation between Categories",
+						'format':"float"
+						});
+		</script>
+	</body>
+</html>
