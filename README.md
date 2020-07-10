@@ -33,7 +33,7 @@ Given 2D array with first row and first column as category names and rest of the
     ├── d3-v4.js                                            # d3 v4 file
     ├── HeatMap.js                                          # Main JS code for heat map creation
 ├── screen_shots                                            # Folder to hold screen shots
-    ├── heat_map.png                                        # Screen shot of created bar chart
+    ├── heat_map.png                                        # Screen shot of created heat map
 ├── index.html                                              # Index HTML file
 ├── README.md                                               # ReadMe file
 
